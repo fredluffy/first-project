@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css" />
+    <title>Document</title>
+</head>
+<body>
+    <a href="#" class="" data-bs-toggle="modal" data-bs-target="#fre-modal">ورود</a>
+
+<!-- <p id="p7"></p>
+<script>
+    let cars = ['BMW', 'Volvo', 'Saab', 'Ford', 'Pride'];
+    // let txt = '';
+    for (var i = 0,txt = '';  i < cars.length; i++) {
+      txt += cars[i] + '<br>';
+    }
+    document.getElementById('p7').innerHTML = txt;
+</script> -->
+
+<div id="fre-modal" class="modal fade farshad-index" data-bs-backdrop="static">
+  <div class="modal-dialog">
+    <div class="modal-content bg-light">
+      <div class="modal-header border-0">
+        <h4 class="modal-title pe-3">ورود به سایت</h4>
+        <button class="btn-close me-1" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <form action="" id="login-form">
+          <div class="form-group">
+          <label for="email">نام کاربری یا ایمیل</label>
+          <a href="#" class="" data-bs-toggle="modal" data-bs-target="#fre-modal2"><i class="float-end ms-2">ثبت نام</i></a>
+          <a href=""><i class="float-end">آیا نیاز به راهنمایی دارید؟</i></a>
+          <input type="email" class="form-control" name="email" required/>
+          <label for="password">رمز عبور</label>
+          <div class="float-end me-1 fre-cursor fre-d-none" onclick="dshow()" id="eyeopen"><img src="/Images/Flag/Icon/eye-1792481-1522870.png" alt="" width="20px" height="20px" class=""></div>
+          <div class="float-end me-1 fre-cursor" onclick="dhide()" id="eyeclose"><img src="/Images/Flag/Icon/show-icon-png-21.jpg" alt="" width="20px" height="20px" class=""></div>
+          <input type="password" class="form-control" name="password" id="password" required/>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer row justify-content-center border-0">
+        <button class="btn btn-outline-success col-11" type="submit" form="login-form">ورود به حساب</button>
+        <h6 class="col-12 text-center fs-6"><a href="#" class="">آیا رمز عبور خود را فراموش کرده اید؟</a></h6>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- master i knew what was the problem
+where and how you described the variable had a mistake
+solution:
+we should describe our variable with var in loop or with let out
+of loop
+-->
+<script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

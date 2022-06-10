@@ -1,0 +1,17 @@
+@font-face {
+    font-family: BYekan;
+    src: url(/Font/BYekan.ttf);
+}
+@font-face {
+    font-family: BNazanin;
+    src: url(/Font/BNazanin.TTF);
+}
+    body {
+        position: relative;
+        background-image: url(/Images/BG-Image/A-Back.jpg);
+        background-position: center;
+        background-attachment: fixed;
+        overflow-y: scroll;
+        color: gold;
+    }
+
